@@ -4193,3 +4193,124 @@ footer .widget {
 .slider2 .featured-cap {
     padding: 50px 0 0 0;
 }
+/* topbar/navbar donate now button style */
+.donatebtn {
+  display: inline-block;
+  font-family: roboto slab;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0px 20px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  margin: 0px 0px 0px 0px;
+}
+/*===== Donation Page Style =====*/
+.donation-head {
+  background-color: #fff;
+}
+.donation-slogan h4 {
+  margin: 20px 0px;
+}
+.donation-hero-bg{
+  display: flex;
+  flex-wrap: wrap;
+}
+.donation-hero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  margin: auto;
+}
+.donation-value {
+  padding: 20px;
+  margin: 0px auto;
+  width: 585px;
+}
+.donation-value-morphism-value {
+  padding: 58px 0px 58px 0px;
+  backdrop-filter: blur(4px) saturate(200%);
+  -webkit-backdrop-filter: blur(4px) saturate(200%);
+  background-color: rgba(83, 83, 83, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.donation-value-morphism-details {
+  padding: 20px;
+  backdrop-filter: blur(4px) saturate(200%);
+  -webkit-backdrop-filter: blur(4px) saturate(200%);
+  background-color: rgba(83, 83, 83, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.donation-value div p {
+  background-color: #FF9822;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #212529;
+  font-weight: 600;
+}
+.donation-bank-details {
+  width: 585px;
+  margin: 0px auto;
+  padding: 20px;
+}
+.donation-bank-details h4 {
+  width: 250px;
+  border-bottom: 1px solid ;
+  margin: 10px auto;
+}
+.donation-bank-details h6 {
+  width: 400px;
+  margin: 10px auto;
+}
+.donation-bank-details p {
+  line-height: 20px;
+}
+.community-members h4 {
+  width: 360px;
+  border-bottom: 1px solid ;
+  margin: 10px auto;
+}
+.community-members-details {
+  max-width: 545px;
+  margin: 0px auto;
+}
+.donation-community-member {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.donation-community-member {
+  font-size: 20px;
+  font-weight: 900;
+}
+.community-members-details2 {
+  justify-content: space-between;
+}
+.donation-community-member2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.donation-community-member2 h6 {
+  width: 200px;
+}
+.community-members-details2 {
+  max-width: 545px;
+  margin: 0px auto;
+}
+.donation-input-box input {
+  border-radius: 0px 5px 5px 0px;
+}
+.donation-input-box p {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px 0px 0px 5px;
+}

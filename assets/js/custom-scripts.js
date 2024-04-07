@@ -174,3 +174,18 @@ jQuery(window).on('load',function() {
 });
 
 //===== Window onLoad Ends =====//
+
+// Get all the anchor tags
+var anchorTags = document.querySelectorAll('a.brd-rd30');
+
+// Add click event listeners to each anchor tag
+anchorTags.forEach(function(anchor) {
+  anchor.addEventListener('click', function() {
+    // Get the inner HTML (amount) of the clicked anchor tag
+    var amount = this.innerHTML;
+    // Remove any non-numeric characters
+    amount = amount.replace(/[^\d]/g, '');
+    // Set the input field value to the amount
+    document.getElementById('amountInput').value = amount;
+  });
+});
