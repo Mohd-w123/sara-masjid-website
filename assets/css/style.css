@@ -1190,28 +1190,17 @@ header.style2 .logo > a {padding: 15px 0;}
   float: left;
   width: 100%;
 }
-.prayer-timings {
-  /* float: left;
-  width: 100%; */
-  max-width: 1100px;
-  margin: auto;
-  justify-content: center;
-}
-.prayer-timings > table {
-  float: left;
-  width: 100%;
-}
-.prayer-timings > table th {
+.hero-section-tables > table th {
   font-family: Merriweather;
   color: #222;
   font-size: 20px;
   font-weight:600;
 }
-.prayer-timings > table th span {
+.hero-section-tables > table th span {
   position: relative;
   display: inline-block;
 }
-.prayer-timings > table th span:before {
+.hero-section-tables > table th span:before {
   content: "";
   width: 130px;
   height: 9px;
@@ -1226,13 +1215,13 @@ header.style2 .logo > a {padding: 15px 0;}
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-.prayer-timings > table td {
+.hero-section-tables > table td {
   font-size: 18px;
   font-weight: 700;
   color: #222;
   padding: 10px;
 }
-.prayer-timings > table td span {font-family: Merriweather;}
+.hero-section-tables > table td span {font-family: Merriweather;}
 /*===== Services Sec =====*/
 .remove-ext3 .serv-bx {margin-bottom: 30px;}
 .serv-bx {
@@ -3544,7 +3533,7 @@ header.style1 nav > div > a.srch-btn:hover,
 header.style1 nav > div > a.srch-btn:focus,
 .abt-vdo > a:hover,
 .abt-vdo > a:focus,
-.prayer-timings > table tr:hover td,
+.hero-section-tables > table tr:hover td,
 .serv-bx:hover > i.green-clr,
 .post-inf > h5 a:hover,
 .post-inf > h5 a:focus,
@@ -3922,7 +3911,7 @@ header.style1 nav > div ul li.menu-item-has-children > i {
 	background-color:rgba(255, 152, 34, 0.9);
 	color:#fff;
 }
-.prayer-timings > table td {
+.hero-section-tables > table td {
     font-weight: 500;
     font-family: Merriweather;
 }
@@ -3949,9 +3938,6 @@ header.style3 .topbar {
 }
 header.style1 nav > div ul li ul li.menu-item-has-children > i{
 	right:15px;
-}
-.rspn-hdr .logo img {
-    width: 60%;
 }
 .timing-data {
     margin-top: -100px;
@@ -4317,22 +4303,6 @@ footer .widget {
   font-weight: 500;
   border-radius: 5px 0px 0px 5px;
 }
-.nav-logo-default {
-  display: block;
-  transition: all 0.2s ease-in-out;
-}
-.nav-logo-change{
-  display: none;
-  transition: all 0.2s ease-in-out;
-}
-.nav-logo-default:hover {
-  display: none;
-  transition: all 0.2s ease-in-out;
-}
-.nav-logo-change:hover {
-  display: block;
-  transition: all 0.2s ease-in-out;
-}
 .prayer-timings-section {
   max-width: 1100px;
   margin: auto;
@@ -4387,3 +4357,12 @@ footer .widget {
   padding: 0px;
   font-size: 20px;
 } 
+.hero-section-tables {
+  width: 1170px;
+  margin: auto;
+  margin-top: 40px;
+}
+.azan-prayer-table {
+  width: 900px;
+  margin: auto;
+}
