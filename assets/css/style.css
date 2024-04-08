@@ -4317,15 +4317,73 @@ footer .widget {
   font-weight: 500;
   border-radius: 5px 0px 0px 5px;
 }
-/* .nav-logo-default {
+.nav-logo-default {
   display: block;
+  transition: all 0.2s ease-in-out;
 }
 .nav-logo-change{
   display: none;
+  transition: all 0.2s ease-in-out;
 }
 .nav-logo-default:hover {
   display: none;
+  transition: all 0.2s ease-in-out;
 }
 .nav-logo-change:hover {
   display: block;
-} */
+  transition: all 0.2s ease-in-out;
+}
+.prayer-timings-section {
+  max-width: 1100px;
+  margin: auto;
+  justify-content: center;
+}
+.prayer-timings-section > table {
+  float: left;
+  width: 100%;
+}
+.prayer-timings-section > table th {
+  font-family: Merriweather;
+  color: #222;
+  font-size: 20px;
+  font-weight:600;
+}
+.prayer-timings-section > table th span {
+  position: relative;
+  display: inline-block;
+}
+.prayer-timings-section > table th span:before {
+  content: "";
+  width: 130px;
+  height: 9px;
+  background-image: url(../images/prayer-head-shp.html);
+  position: absolute;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.prayer-timings-section > table td {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  padding: 10px;
+}
+.prayer-timings-section > table td span {font-family: Merriweather;}
+
+.timing-data {
+  float: left;
+  width: 100%;
+  margin: 80px 0px 0px 0px;
+}
+.prayer-timings-section {
+  display: flex;
+}
+.prayer-timings-section > .namaz-juuma-table td {
+  padding: 0px;
+  font-size: 20px;
+} 
