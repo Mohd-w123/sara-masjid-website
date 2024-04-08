@@ -171,6 +171,22 @@ $(document).ready(function(){
 jQuery(window).on('load',function() {
   'use strict';
   $(".preloader").fadeOut("slow");
-});
+});//===== Window onLoad Ends =====//
 
-//===== Window onLoad Ends =====//
+var anchorTags = document.querySelectorAll('a.brd-rd30');
+
+anchorTags.forEach(function(anchor) {
+  anchor.addEventListener('click', function() {
+    var amount = this.innerHTML;
+    amount = amount.replace(/[^\d]/g, '');
+    document.getElementById('amountInput').value = amount;
+  });
+});//===== Donation textToInsert Ends =====//
+
+function changeLogo() {
+  document.getElementById('logo').src ='assets/images/sara-masjid-logo-hover.png';
+}
+
+function restoreLogo() {
+  document.getElementById('logo').src = 'assets/images/sara-masjid-logo.png';
+}//===== Logo hoverChange Ends =====//

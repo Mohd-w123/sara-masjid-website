@@ -4196,3 +4196,194 @@ footer .widget {
 .slider2 .featured-cap {
     padding: 50px 0 0 0;
 }
+/* topbar/navbar donate now button style */
+.donatebtn {
+  display: inline-block;
+  font-family: roboto slab;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0px 20px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  margin: 0px 0px 0px 0px;
+}
+/*===== Donation Page Style =====*/
+.donation-head {
+  background-color: #fff;
+}
+.donation-slogan h4 {
+  margin: 20px 0px;
+}
+.donation-hero-bg{
+  display: flex;
+  flex-wrap: wrap;
+}
+.donation-hero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  margin: auto;
+}
+.donation-value {
+  padding: 20px;
+  margin: 0px auto;
+  width: 585px;
+}
+.donation-value-morphism-value {
+  padding: 58px 0px 58px 0px;
+  backdrop-filter: blur(4px) saturate(200%);
+  -webkit-backdrop-filter: blur(4px) saturate(200%);
+  background-color: rgba(83, 83, 83, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.donation-value-morphism-details {
+  padding: 20px;
+  backdrop-filter: blur(4px) saturate(200%);
+  -webkit-backdrop-filter: blur(4px) saturate(200%);
+  background-color: rgba(83, 83, 83, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.donation-value div p {
+  background-color: #FF9822;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #212529;
+  font-weight: 600;
+}
+.donation-bank-details {
+  width: 585px;
+  margin: 0px auto;
+  padding: 20px;
+}
+.donation-bank-details h4 {
+  width: 250px;
+  border-bottom: 1px solid ;
+  margin: 10px auto;
+}
+.donation-bank-details h6 {
+  width: 400px;
+  margin: 10px auto;
+}
+.donation-bank-details p {
+  line-height: 20px;
+}
+.community-members h4 {
+  width: 360px;
+  border-bottom: 1px solid ;
+  margin: 10px auto;
+}
+.community-members-details {
+  max-width: 545px;
+  margin: 0px auto;
+}
+.donation-community-member {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.donation-community-member {
+  font-size: 20px;
+  font-weight: 900;
+}
+.community-members-details2 {
+  justify-content: space-between;
+}
+.donation-community-member2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.donation-community-member2 h6 {
+  width: 200px;
+}
+.community-members-details2 {
+  max-width: 545px;
+  margin: 0px auto;
+}
+.donation-input-box input {
+  border-radius: 0px 5px 5px 0px;
+}
+.donation-input-box p {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px 0px 0px 5px;
+}
+.nav-logo-default {
+  display: block;
+  transition: all 0.2s ease-in-out;
+}
+.nav-logo-change{
+  display: none;
+  transition: all 0.2s ease-in-out;
+}
+.nav-logo-default:hover {
+  display: none;
+  transition: all 0.2s ease-in-out;
+}
+.nav-logo-change:hover {
+  display: block;
+  transition: all 0.2s ease-in-out;
+}
+.prayer-timings-section {
+  max-width: 1100px;
+  margin: auto;
+  justify-content: center;
+}
+.prayer-timings-section > table {
+  float: left;
+  width: 100%;
+}
+.prayer-timings-section > table th {
+  font-family: Merriweather;
+  color: #222;
+  font-size: 20px;
+  font-weight:600;
+}
+.prayer-timings-section > table th span {
+  position: relative;
+  display: inline-block;
+}
+.prayer-timings-section > table th span:before {
+  content: "";
+  width: 130px;
+  height: 9px;
+  background-image: url(../images/prayer-head-shp.html);
+  position: absolute;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.prayer-timings-section > table td {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  padding: 10px;
+}
+.prayer-timings-section > table td span {font-family: Merriweather;}
+
+.timing-data {
+  float: left;
+  width: 100%;
+  margin: 80px 0px 0px 0px;
+}
+.prayer-timings-section {
+  display: flex;
+}
+.prayer-timings-section > .namaz-juuma-table td {
+  padding: 0px;
+  font-size: 20px;
+} 
