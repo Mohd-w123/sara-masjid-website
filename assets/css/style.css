@@ -4366,3 +4366,37 @@ footer .widget {
   width: 900px;
   margin: auto;
 }
+.namaz-juuma-table-p1 {
+  backdrop-filter: blur(3px) saturate(200%);
+  -webkit-backdrop-filter: blur(3px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.2);
+  border-radius: 12px;
+  border-top: 10px solid #b57c00;
+  border-right: 10px solid #b57c00;
+  border-left: 10px solid #b57c00;
+}
+.namaz-juuma-table-p2 {
+  backdrop-filter: blur(3px) saturate(200%);
+  -webkit-backdrop-filter: blur(3px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.2);
+  border-radius: 12px;
+  border-right: 10px solid #b57c00;
+  border-left: 10px solid #b57c00;
+}
+.namaz-juuma-table-p3 {
+  backdrop-filter: blur(3px) saturate(200%);
+  -webkit-backdrop-filter: blur(3px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.2);
+  border-radius: 12px;
+  border-right: 10px solid #b57c00;
+  border-left: 10px solid #b57c00;
+}
+.namaz-juuma-table-p4 {
+  backdrop-filter: blur(3px) saturate(200%);
+  -webkit-backdrop-filter: blur(3px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.2);
+  border-radius: 12px;
+  border-bottom: 10px solid #b57c00;
+  border-right: 10px solid #b57c00;
+  border-left: 10px solid #b57c00;
+}
