@@ -4233,12 +4233,16 @@ footer .widget {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
-.donation-value div p {
-  background-color: #FF9822;
+.donation-value-p {
+  /* background-color: #FF9822; */
+  background-image: linear-gradient(to right, rgb(251,214,5) , rgb(185,151,32));
   border-radius: 20px;
   padding: 10px 20px;
   color: #212529;
   font-weight: 600;
+}
+.donation-value-p:hover {
+  background-image: linear-gradient(to right, rgb(185,151,32) , rgb(251,214,5));
 }
 .donation-bank-details {
   width: 585px;
