@@ -37,9 +37,9 @@ nav > div > ul li > a:after,
 }
 
 
-{
+/* {
 	background: #ff9822;
-}
+} */
 
 /*===== Text Color =====*/
 .theme-clr,
@@ -118,7 +118,8 @@ ol.breadcrumb > li.breadcrumb-item.active,
 header.style1 .scl1 > a:hover,
 header.style1 .scl1 > a:focus,
 .rspn-cnt > span a:hover,
-.rspn-cnt > span a:focus
+.rspn-cnt > span a:focus,
+.clr-read-more
 {
 	color:  rgb(251,214,5);
 }
@@ -144,25 +145,6 @@ header.style1 .scl1 > a:focus,
 	border-top-color: rgb(251,214,5);
 }
 
-/*===== Border Right Color =====*/ 
-
-{
-	border-right-color: #ff9822;
-}
-
-/*===== Border Bottom Color =====*/
-
-{
-	border-bottom-color: #ff9822;
-}
-
-/*===== Border Left Color =====*/ 
-
-{
-	border-left-color: #ff9822;
-}
-
-
 
 
 /*===== Green Color =====*/
@@ -178,10 +160,6 @@ header.style1 .scl1 > a:focus,
 	background-color: #5d2b00;
 }
 
-.srv-inf:hover
-{
-	background: #5d2b00;
-}
 
 /*===== Text Color =====*/
 .green-clr,
@@ -189,37 +167,38 @@ header.style1 .scl1 > a:focus,
 .serv-bx > h5 a:hover,
 .serv-bx > h5 a:focus,
 .error-page-inner > p a:hover,
-.error-page-inner > p a:focus
+.error-page-inner > p a:focus,
+.clr-read-more:hover
 {
 	color: #5d2b00;
 }
 
 /*===== Border Color =====*/
-.green-brd-clr
+/* .green-brd-clr
 {
 	border-color: #5d2b00;
-}
+} */
 
 /*===== Border Top Color =====*/ 
 
-{
+/* {
 	border-top-color: #5d2b00;
-}
+} */
 
 /*===== Border Right Color =====*/ 
 
-{
+/* {
 	border-right-color: #5d2b00;
-}
+} */
 
 /*===== Border Bottom Color =====*/
 
-{
+/* {
 	border-bottom-color: #5d2b00;
-}
+} */
 
 /*===== Border Left Color =====*/ 
 
-{
+/* {
 	border-left-color: #5d2b00;
-}
+} */
