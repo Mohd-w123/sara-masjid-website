@@ -1261,18 +1261,10 @@ header.style2 .logo > a {padding: 15px 0;}
   color: #fff;
   padding: 10px;
 }
-.hero-section-tables > .namaz-timings > table td span {
-  font-family: Merriweather;
-}
-.hero-section-tables > .namaz-timings > table td {
   font-weight: 500;
   font-family: Merriweather;
 }
 .hero-section-tables {
-  display: grid;
-  grid-template-columns: 70% 30%;
-  width: 1170px;
-  margin: auto;
   margin-top: 40px;
 }
 
@@ -4403,6 +4395,4 @@ footer .widget {
   font-weight: 600;
   width: 100px;
   margin: auto;
-  transition: all 1s;
-  cursor: pointer;
 }
