@@ -183,10 +183,37 @@ anchorTags.forEach(function(anchor) {
   });
 });//===== Donation textToInsert Ends =====//
 
-function changeLogo() {
-  document.getElementById('logo').src ='assets/images/sara-masjid-logo-hover.png';
-}
+// function changeLogo() {
+//   document.getElementById('logo').src ='assets/images/sara-masjid-logo-hover.png';
+// }
 
-function restoreLogo() {
-  document.getElementById('logo').src = 'assets/images/sara-masjid-logo.png';
-}//===== Logo hoverChange Ends =====//
+// function restoreLogo() {
+//   document.getElementById('logo').src = 'assets/images/sara-masjid-logo.png';
+// }//===== Logo hoverChange Ends =====//
+
+
+$(document).ready(function(){
+  $(".read-about-toggle-1").click(function(){
+      $("#toggle-content-islamic-classes").slideToggle();
+  });
+});
+
+$(document).ready(function(){
+  $(".read-about-toggle-2").click(function(){
+      $("#toggle-content-community").slideToggle();
+  });
+});
+
+$(document).ready(function(){
+  $(".read-about-toggle-3").click(function(){
+      $("#toggle-content-mosque").slideToggle();
+  });
+});
+
+$(document).ready(function(){
+  $(".read-about-toggle-4").click(function(){
+      $("#toggle-content-helps-poor").slideToggle();
+  });
+});
+
+//===== Services toggle paragraph =====//
