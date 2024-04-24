@@ -376,7 +376,6 @@ nav > div > ul ul,
 nav > div > ul li,
 .testi-nav-thmb,
 td,
-.srv-inf,
 .serv-bx > i,
 .team-bx,
 .team-inf,
@@ -567,7 +566,7 @@ nav > div ul {
 }
 nav > div > ul {
   display: inline-block;
-  float: left;
+  /* float: left; */
 }
 nav > div ul li {
   font-size: 14px;
@@ -1190,17 +1189,17 @@ header.style2 .logo > a {padding: 15px 0;}
   float: left;
   width: 100%;
 }
-.hero-section-tables > table th {
+.hero-section-tables > .salat-timings > table th {
   font-family: Merriweather;
-  color: #222;
+  color: #fff;
   font-size: 20px;
   font-weight:600;
 }
-.hero-section-tables > table th span {
+.hero-section-tables > .salat-timings > table th span {
   position: relative;
   display: inline-block;
 }
-.hero-section-tables > table th span:before {
+.hero-section-tables > .salat-timings > table th span:before {
   content: "";
   width: 130px;
   height: 9px;
@@ -1215,22 +1214,65 @@ header.style2 .logo > a {padding: 15px 0;}
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-.hero-section-tables > table td {
+.hero-section-tables > .salat-timings > table td {
   font-size: 18px;
   font-weight: 700;
-  color: #222;
-  padding: 10px;
+  color: #fff;
+  padding: 10px 40px;
 }
-.hero-section-tables > table td span {
+.hero-section-tables > .salat-timings > table td span {
   font-family: Merriweather;
 }
-.hero-section-tables > table td {
+.hero-section-tables > .salat-timings > table td {
+  font-weight: 500;
+  font-family: Merriweather;
+}
+
+
+.hero-section-tables > .namaz-timings > table th {
+  font-family: Merriweather;
+  color: #fff;
+  font-size: 40px;
+  font-weight:600;
+}
+.hero-section-tables > .namaz-timings > table th span {
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+}
+.hero-section-tables > .namaz-timings > table th span:before {
+  content: "";
+  width: 130px;
+  height: 9px;
+  background-image: url(../images/prayer-head-shp.html);
+  position: absolute;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.hero-section-tables > .namaz-timings > table td {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px;
+}
+.hero-section-tables > .namaz-timings > table td span {
+  font-family: Merriweather;
+}
+.hero-section-tables > .namaz-timings > table td {
   font-weight: 500;
   font-family: Merriweather;
 }
 .hero-section-tables {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 1170px;
+  margin: auto;
   margin-top: 40px;
 }
 
@@ -1250,9 +1292,9 @@ header.style2 .logo > a {padding: 15px 0;}
 
 .serv-bx > h5 {margin-bottom: 0;}
 .srv-inf {
-  float: left;
+  /* float: left; */
   width: 100%;
-  margin-top: 45px;
+  margin-top: 25px;
   position: relative;
   text-align: initial;
   padding: 20px 25px 25px;
@@ -1266,7 +1308,7 @@ header.style2 .logo > a {padding: 15px 0;}
   left: 0;
   right: .5px;
   height: 40px;
-  position: absolute;
+  /* position: absolute; */
   top: -12px;
   -webkit-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
@@ -1957,7 +1999,6 @@ footer .scl1 > a {color: #666;}
 }
 .pagination > li {
   display: inline-block;
-  float: left;
   margin: 5px;
   line-height: 50px;
   font-weight: 700;
@@ -3641,7 +3682,7 @@ header.style1 .scl1 > a:focus,
 .green-bg-layer:before,
 .theme-btn.theme-bg:before,
 .theme-btn.theme-bg:after,
-.serv-bx:hover .srv-inf.theme-bg,
+.theme-bg,
 .owl-carousel .owl-nav > button:hover,
 .owl-carousel .owl-nav > button:focus
 {
@@ -3649,16 +3690,6 @@ header.style1 .scl1 > a:focus,
 }
 
 
-/*===== Text Color =====*/
-.green-clr,
-.serv-bx:hover > i.theme-clr,
-.serv-bx > h5 a:hover,
-.serv-bx > h5 a:focus,
-.error-page-inner > p a:hover,
-.error-page-inner > p a:focus
-{
-  color: #5d2b00;
-}
 
 /*===== Border Color =====*/
 .green-brd-clr
@@ -4243,12 +4274,16 @@ footer .widget {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
-.donation-value div p {
-  background-color: #FF9822;
+.donation-value-p {
+  /* background-color: #FF9822; */
+  background-image: linear-gradient(to right, rgb(251,214,5) , rgb(185,151,32));
   border-radius: 20px;
   padding: 10px 20px;
   color: #212529;
   font-weight: 600;
+}
+.donation-value-p:hover {
+  background-image: linear-gradient(to right, rgb(185,151,32) , rgb(251,214,5));
 }
 .donation-bank-details {
   width: 585px;
@@ -4362,8 +4397,12 @@ footer .widget {
 }
 .prayer-timings-section {
   display: flex;
-}
-.prayer-timings-section > .namaz-juuma-table td {
-  padding: 0px;
-  font-size: 20px;
 } 
+.clr-read-more {
+  font-size: 18px;
+  font-weight: 600;
+  width: 100px;
+  margin: auto;
+  transition: all 1s;
+  cursor: pointer;
+}
