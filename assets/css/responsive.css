@@ -234,3 +234,15 @@ h1 {font-size: 48px;}
 .btns-wrp > a {float: none;margin-right: 0;}
 
 }
+@media (max-width: 1028px){
+    .hero-section-tables {
+        display: block;
+    }
+    .hero-section-bg-img {
+        height: max-content;
+    }
+    .hero-section-tables .namaz-timings {
+        width: max-content;
+        margin: 50px 0px 0px 130px;
+    }
+}
