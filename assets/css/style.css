@@ -1272,6 +1272,10 @@ header.style2 .logo > a {padding: 15px 0;}
 .hero-section-tables {
   display: grid;
   grid-template-columns: 70% 30%;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap; */
   width: 1170px;
   margin: auto;
   margin-top: 40px;
