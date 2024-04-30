@@ -236,13 +236,23 @@ h1 {font-size: 48px;}
 }
 @media (max-width: 1028px){
     .hero-section-tables {
-        display: block;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
     }
     .hero-section-bg-img {
         height: max-content;
     }
     .hero-section-tables .namaz-timings {
         width: max-content;
-        margin: 50px 0px 0px 130px;
+        margin: 40px 20px;
+    }
+    .hero-section-tables .azan-prayer-table {
+        width: max-content;
+    }
+    .hero-section-tables > .namaz-timings > table th span{
+        margin-right: 15px;
     }
 }
