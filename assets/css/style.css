@@ -4419,3 +4419,7 @@ footer .widget {
     border-radius: 12px;
     border: 5px solid rgb(172,141,18);
 }
+
+.hero-section-bg-img {
+  height: 100vh;
+}
