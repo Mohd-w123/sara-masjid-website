@@ -1339,6 +1339,7 @@ header.style2 .logo > a {padding: 15px 0;}
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  justify-content: space-evenly;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -4423,3 +4424,4 @@ footer .widget {
 .hero-section-bg-img {
   height: 100vh;
 }
+
